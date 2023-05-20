@@ -10,3 +10,12 @@ services:
     environment:
       POSTGRES_DB: postgres
       POSTGRES_PASSWORD: root
+
+  mysql_db:
+    image: "mysql:latest"
+    restart: always
+    ports:
+      - 3000:3000
+    environment:
+      mysql_root_user: mysql
+      mysql_root_password: root
