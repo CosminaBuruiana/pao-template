@@ -3,7 +3,7 @@ import ro.pao.model.cure.Medicine;
 import java.util.List;
 import lombok.experimental.SuperBuilder;
 import lombok.*;
-import models.tool.ToolORL;
+import ro.pao.model.tool.ToolORL;
 
 @Getter
 @Setter

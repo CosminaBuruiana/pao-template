@@ -3,7 +3,7 @@ import lombok.experimental.SuperBuilder;
 import ro.pao.model.cure.Medicine;
 import java.util.List;
 import lombok.*;
-import models.tool.ToolCardiologist;
+import ro.pao.model.tool.ToolCardiologist;
 
 @Getter
 @Setter

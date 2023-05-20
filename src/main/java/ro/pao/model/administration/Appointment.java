@@ -3,8 +3,8 @@ import java.time.LocalDate;
 import java.util.Date;
 import java.util.UUID;
 
-import models.entity.Doctor;
-import models.entity.Patient;
+import ro.pao.model.entity.Doctor;
+import ro.pao.model.entity.Patient;
 import lombok.*;
 
 @Getter
